@@ -1,0 +1,26 @@
+{
+  "name": "my_pet_shop",
+  "version": "1.0.0",
+  "description": "This a Web Site for a Pet Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFelipeTrujillo/MyPetShop.git"
+  },
+  "keywords": [
+    "AngualarJS",
+    "TutorialBit"
+  ],
+  "author": "AFelipeTrujillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AFelipeTrujillo/MyPetShop/issues"
+  },
+  "homepage": "https://github.com/AFelipeTrujillo/MyPetShop#readme",
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}
