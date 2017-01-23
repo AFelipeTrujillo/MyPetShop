@@ -4,7 +4,7 @@
   "description": "This a Web Site for a Pet Shop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/AFelipeTrujillo/MyPetShop#readme",
   "dependencies": {
     "angular": "^1.6.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
   }
 }
