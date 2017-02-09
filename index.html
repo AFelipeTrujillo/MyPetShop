@@ -11,10 +11,13 @@
       <div class="jumbotron">
         <div class="container">
           <h1>
-            {{title}}
+            {{title | uppercase}}
           </h1>
           <p>
             {{welcomeMsg}}
+          </p>
+          <p>
+            Exchange Rate: {{ 2800 | currency:'COP$' }}
           </p>
         </div>
       </div>
