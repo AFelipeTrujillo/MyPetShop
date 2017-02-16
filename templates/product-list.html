@@ -1,0 +1,25 @@
+<div class="container" ng-controller="ProductListController">
+    <table class="table">
+        <tr>
+            <th>Picture</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Provider</th>
+            <th>Registered</th>
+            <th>Actions</th>
+        </tr>
+        <tr ng-repeat="product in products">
+            <td>
+                <img ng-src="{{product.picture}}" />
+            </td>
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.company}}</td>
+            <td>{{product.registered}}</td>
+            <td>
+                <button class="btn btn-sm btn-info">Edit</button>
+                <button class="btn btn-sm btn-danger">Delete</button>
+            </td>
+        </tr>
+    </table>
+</div>
