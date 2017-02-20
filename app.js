@@ -27,6 +27,10 @@ app.controller('WelcomeController', function($scope){
 app.controller('ProductListController', function($scope){
 
   $scope.products = __data();
+  $scope.showPicture = true;
+  $scope.hidePicture = function(){
+    $scope.showPicture = !$scope.showPicture;
+  }
     
 });
 

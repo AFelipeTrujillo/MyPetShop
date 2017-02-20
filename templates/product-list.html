@@ -1,4 +1,11 @@
 <div class="container" ng-controller="ProductListController">
+    <div class="row">
+        <div class="col-md-1">
+            <button class="btn btn-warning" ng-click="hidePicture()" ng-show="showPicture">Hide Pictures</button>
+            <button class="btn btn-info" ng-click="hidePicture()" ng-hide="showPicture">Show Pictures</button>
+        </div>
+    </div>
+    <br />
     <table class="table">
         <tr>
             <th>Picture</th>
@@ -10,7 +17,7 @@
         </tr>
         <tr ng-repeat="product in products">
             <td>
-                <img ng-src="{{product.picture}}" />
+                <img ng-src="{{product.picture}}" ng-show="showPicture" />
             </td>
             <td>{{product.name}}</td>
             <td>{{product.price}}</td>
